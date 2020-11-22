@@ -10,7 +10,7 @@ Mock Service
 ### Build
 * Run Gradle Build (excluding tests):
 ```
-$ gradle clean build -x test
+$ gradle clean build bootRun -x test
 ```
 * Do a GET Request for Transaction List:
 ```
